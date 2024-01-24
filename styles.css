@@ -19,6 +19,35 @@
     padding: 0 20px;
 }
 
+.list-images li {
+    list-style: none;
+}
+
+.list-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.list-images p {
+    flex-wrap: wrap;
+    max-width: 150px;
+    text-align: center
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mid-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 6px;
+}
+
 .hero {
     display: flex;
     justify-content: center;
