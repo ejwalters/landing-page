@@ -40,7 +40,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
 }
 
 .mid-img {
@@ -103,6 +104,36 @@ p {
     border-color: none;
     border: none;
     font-weight: bold;
+}
+
+.quote-section {
+    background-color: rgb(229, 228, 228);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote {
+    max-width: 600px;
+    font-style: italic;
+    font-size: x-large;
+    margin-bottom: 5px;
+
+}
+
+.quote-subsection {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-attribution {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
 }
 
 body {
